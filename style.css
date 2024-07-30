@@ -166,6 +166,7 @@ height: 452px;
  .habit-description{
     font-size: 14px;
     font-weight: 400;
+    margin-top: 14px;
  }
  .habit{
     display: flex;
@@ -207,3 +208,72 @@ height: 180px;
  main>section{
     margin: 0 auto;
  }
+
+ /* run related style */
+ .run{
+    width: 1060px;
+height: 371px;
+    border-radius: 18px;
+
+background: rgb(34, 34, 34);
+margin-top: 100px;
+
+
+ }
+ .run-section{
+    margin: 40px 54px;
+   
+ }
+ .run-image{
+    
+    width: 366px;
+height: 312px;
+border-radius: 18px;
+margin: 30px 32px;
+ }
+ .running{
+    display: flex;   
+ }
+ .run-image{
+    margin-left: 150px;
+ }
+/* training related style */
+.train{
+    width: 1060px;
+height: 581px;
+    margin-top: 100px;
+}
+.exercise{
+    margin-top: 58px;
+    width: 1060px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.ex-1{
+    width: 250px;
+height: 200px;
+background: rgba(6, 255, 210, 0.5),url(3);
+}
+.ex-2{
+    width: 520px;
+height: 200px;
+}
+.ex-3{
+    width: 290px;
+height: 200px;
+}
+.ex-4{
+    width: 425px;
+height: 200px;
+}
+.ex-5{
+    width: 288px;
+height: 200px;
+}
+.ex-6{
+    width: 347px;
+height: 200px;
+}
