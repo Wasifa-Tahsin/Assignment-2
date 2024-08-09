@@ -6,6 +6,14 @@
     font-style: normal;
    
   }
+  
+ 
+  /* google font */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap'); */
+  
+  
+  
 *{
     margin: 0;
     padding: 0;
@@ -29,12 +37,13 @@
 .btn-primary{
     font-size: 18px;
 font-weight: 600;
-line-height: 22px;
+border: none;
 border-radius: 42px;
 
 background: rgb(230, 83, 60);
 padding: 16px 40px 16px 40px;
 margin-top: 28px;
+color: white;
 }
 .btn{
     font-size: 18px;
@@ -56,6 +65,7 @@ font-weight: 800;
     padding: 8px 20px 8px 20px;
     border-radius: 46px;
 background: rgb(230, 83, 60);
+border: none;
 }
 .navbar{
     display: flex;
@@ -89,6 +99,7 @@ font-weight: 400;
 .banner-title {
     font-size: 78px;
 font-weight: 900;
+color: white;
 }
 /* .ita{
    font-style: oblique;
@@ -162,6 +173,7 @@ height: 452px;
  .habit-title{
     font-size: 48px;
     font-weight: 900;
+    color: white;
  }
  .habit-description{
     font-size: 14px;
@@ -226,7 +238,8 @@ margin-top: 100px;
  }
  .run-image{
     
-    width: 366px;
+    
+width: 366px;
 height: 312px;
 border-radius: 18px;
 margin: 30px 32px;
@@ -237,43 +250,250 @@ margin: 30px 32px;
  .run-image{
     margin-left: 150px;
  }
-/* training related style */
-.train{
-    width: 1060px;
-height: 581px;
-    margin-top: 100px;
+
+  
+/* calculator related style */
+
+.bmi{
+    width: 671px;
+height: 120px;
+    
+        display: flex;
+        flex-direction: column;
+          margin: 78px 380px;
 }
-.exercise{
-    margin-top: 58px;
+.bmi-calculator{
+    display: flex;
+    background: rgb(34, 34, 34);
+    margin-top: 88px;
+}
+.calculate{
+    width: 577px;
+    height: 386px;
+    margin-top: 49px;
+    margin-left: 674px;
+}
+.bmi-text{
+    margin-top: 52px;
+    font-size: 28px;
+font-weight: 900;
+color: white;
+}
+.chart{
+    margin-left: 189px;
+}
+.box{
+    width: 310px;
+height: 216px;
+    margin-top: 52px;
+}
+.cal{
+    font-size: 28px;
+font-weight: 900;
+color: white;
+}
+.upper{
+    color: white;
+}
+.chart-description{
+    font-size: 14px;
+font-weight: 400;
+margin-top: 14px;
+line-height: 24px;
+}
+.input-container{
+    width: 577px;
+height: 168px;
+}
+.input{
+    
+    font-size: 16px;
+font-weight: 400;
+align-items: center;
+padding: 12px 40px 12px 20px;
+border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.1);
+margin-top: 12px;
+}
+.input-pro{
+    width: 45%;
+    font-size: 16px;
+font-weight: 400;
+align-items: center;
+padding: 12px 40px 12px 20px;
+border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.1);
+margin-top: 12px;
+
+
+}
+.activity{
+    width: 91%;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 12px;
+    
+}
+ table{
+    width: 310px;
+    height: 216px;
+    border-collapse: collapse;
+    
+}
+td,th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+    
+
+}
+tr>th{
+    font-size: 16px;
+font-weight: 500;
+text-align: left;
+}
+tr>td{
+    font-size: 14px;
+font-weight: 400;
+}
+
+/* meet related style */
+.meet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 88px;
+}
+.meet-title{
+    font-size: 48px;
+font-weight: 900;
+color: white;
+}
+.meet-description{
+    font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+margin-top: 14px;
+}
+
+.container{
     width: 1060px;
-    height: 400px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    height: 604px;
+    border-radius: 18px;
+background: rgba(255, 255, 255, 0.1);
+margin-top: 58px;
+}
+
+.gym-img{
+    width: 327px;
+height: 272px;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.first-head{
+    position:absolute;
+    margin-top: -70px;
+    margin-left: 30px;
+    color: white;
+}
+.first-pra{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 30px;
+}
+.gym{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+
+/* footer related style */
+footer{
+    background: rgba(255, 255, 255, 0.1);
+}
+.last-section{
+    
+    height: 489px;
+    margin-top: 108px;
+    display: flex;
+    flex-direction: row;
+}
+.fit{
+    width: 443px;
+height: 176px;
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 190px;
+}
+.fit-title{
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+font-weight: 800;
+margin-top: 66px;
+}
+.fit-description{
+    font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+margin-top: 20px;
+}
+.get-start{
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 66px;
+}
+.get{
+    width: 185px;
+height: 249px;
+margin-left: 450px;
+}
+.get-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+   
+}
+.get-sub{
+    font-size: 23px;
+font-weight: 400;
+margin-top: 20px;
+}
+.start{
+    width: 181px;
+height: 249px;
+    margin-left: 210px;
     
 }
 
-.ex-1{
-    width: 250px;
-height: 200px;
-background: rgba(6, 255, 210, 0.5),url(3);
+.reserve{
+    padding: 50px;
+    
 }
-.ex-2{
-    width: 520px;
-height: 200px;
+.reserve-title{
+    font-size: 20px;
+font-weight: 400;
+text-align: center;
+
 }
-.ex-3{
-    width: 290px;
-height: 200px;
+.footer-content{
+    max-width: 1440px;
+    margin: 0 auto;
 }
-.ex-4{
-    width: 425px;
-height: 200px;
+
+@media screen {
+    
 }
-.ex-5{
-    width: 288px;
-height: 200px;
-}
-.ex-6{
-    width: 347px;
-height: 200px;
-}
+
+
+    
+
