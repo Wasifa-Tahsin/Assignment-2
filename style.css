@@ -670,7 +670,7 @@ text-align: center;
 
     }
     .input-container{
-        width: 300px;
+        width: 380px;
     }
     .bmi-calculator{
         padding-bottom: 60px;
@@ -726,6 +726,13 @@ text-align: center;
     .footer-content{
         margin-top: 0px;
     }
+    .fit-title{
+        font-size: 40px;
+        margin-left: 5px;
+    }
+    .fit-description{
+        margin-left: 5px;
+    }
     .reserve {
         margin-top: 0px;
     }
@@ -748,16 +755,17 @@ text-align: center;
     }
     .fit{
         margin-left: 10%;
-        margin-right: 10%;
+        margin-right: 0;
+        width: 350px;
     }
     .input{
-        width: 19%;
-    }
-    .input-pro{
         width: 30%;
     }
+    .input-pro{
+        width: 47%;
+    }
     .activity{
-        width: 61%;
+        width: 96%;
     }
     .run{
         padding-bottom: 500px;
