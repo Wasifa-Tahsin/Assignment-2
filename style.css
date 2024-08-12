@@ -613,7 +613,9 @@ text-align: center;
        margin-right: 35%;
     }
     .banner-description{
-        
+       width: 250px;
+       margin-left: 20px;
+       margin-top: 10px;
     }
     #bannerbox2{
         margin-left: -35px;
@@ -623,12 +625,12 @@ text-align: center;
         
     }
     .btn-primary{
-        height:80px;
-        width: 220px;
+        height:60px;
+        width: 180px;
     }
     .btn{
-        width: 220px;
-        height: 80px;
+        width: 180px;
+        height: 60px;
         margin-top: 30px;
         
     }
