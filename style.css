@@ -20,6 +20,7 @@
 } */
 .full{
    background-color: rgb(0, 0, 0);
+   padding-bottom: 100px;
 }
 .display-flex{
  display: flex;
@@ -210,10 +211,11 @@ right:110px; */
 
 
 .banner-box-number1{
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 0px;
     font-size: 25px;
     font-weight: 900;
+    color: white;
 }
 
 .banner-box-desc{
@@ -236,8 +238,19 @@ right:110px; */
     margin-bottom: 0px;
     font-size: 25px;
     font-weight: 900;
+    color: white;
 }
  /* habit related styles */
+ .habit-title-main{
+    font-size: 32px;
+font-weight: 900;
+color: white;
+ }
+ .habit-description-main{
+    font-size: 14px;
+font-weight: 400;
+margin-top: 14px;
+ }
  .habit-section{
     width: 1044px;
 height: 452px;
@@ -276,6 +289,7 @@ gap: 40px;
 font-weight: 600;
 text-align: center;
 margin-top: 30px;
+color: white;
  }
  .content{
     font-size: 14px;
@@ -466,6 +480,7 @@ margin-top: 14px;
     border-radius: 18px;
 background: rgba(255, 255, 255, 0.1);
 margin-top: 58px;
+
 }
 
 .gym-img{
@@ -570,15 +585,18 @@ text-align: center;
     max-width: 1440px;
     margin: 0 auto;
     
-    
 }
+.footer{
+    
+    background-color: rgb(36, 36, 36);
+}
+    /* margin-top: -1200px;
+} */
+
 /* responsive media query  */
 @media screen and (max-width:576px){
-    *{
-        /* margin: 0;
-        padding: 0; */
-        
-        border: 2px solid red;
+    .full{
+        margin-bottom: 0px;
     }
     .bar{
         display: block;
@@ -619,10 +637,11 @@ text-align: center;
     .run{
         width: 100%;
         margin-top: 1000px;
+        /* margin-left: 5%; */
       
     }
     .run-image{
-        margin-left: 5%;
+        margin-left: 10%;
     }
     .bmi{
         /* margin-top: 900px;
@@ -656,17 +675,26 @@ text-align: center;
         margin-left: 3%;
         width: 90%;
     }
+    .container{
+        padding-bottom: 1200px;
+    }
     .first-container{
         margin-left: 5%;
     }
     .gym{
         grid-template-columns: repeat(1,1fr);
+       
+    }
+    hr{
+       margin-left: 10%;
+       margin-right: 10%;
+        margin-top: 500px;
     }
     .footer-content{
-        margin-top: 1200px;
+        margin-top: 0px;
     }
     .reserve {
-        margin-top: 500px;
+        margin-top: 0px;
     }
     .get-start{
         flex-direction: column;
