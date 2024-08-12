@@ -603,7 +603,7 @@ text-align: center;
 /* responsive media query  */
 @media screen and (max-width:576px){
     *{
-        border: 1px solid red;
+    
         margin: 0;
         padding: 0;
     }
@@ -732,6 +732,7 @@ text-align: center;
     }
     .fit-description{
         margin-left: 5px;
+        margin-bottom: 50px;
     }
     .reserve {
         margin-top: 0px;
