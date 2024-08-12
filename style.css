@@ -27,8 +27,7 @@
 }
 .bg-light{
     background: linear-gradient(rgb(0, 0, 0),rgb(58, 58, 58),rgb(0, 0, 0));
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(228, 215, 215, 0) 100%); */
-    /* padding: 0px 150px; */
+  
 }
 .color{
     color: rgba(255, 255, 255, 0.5);
@@ -638,7 +637,7 @@ text-align: center;
    
     .habit-content{
         flex-direction: column;
-        margin-left: 150px;
+        margin-left: 100px;
     }
     .run{
         width: 100%;
@@ -668,10 +667,10 @@ text-align: center;
         margin: 20px 10% 0px 0%;
     }
     .habit-title-main{
-        margin-left: -550px;
+        margin-right: 700px;
     }
     .habit-description-main{
-        margin-left: -550px;
+        margin-right: 670px;
         width: 40%;
     }
     .chart{
