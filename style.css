@@ -723,6 +723,7 @@ text-align: center;
     }
     .first-container{
        margin-left: -32px;
+       width: 300px;
         /* width: 400px; */
     }
     .gym{
