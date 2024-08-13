@@ -602,7 +602,7 @@ text-align: center;
 /* responsive media query  */
 @media screen and (max-width:576px){
     *{
-    border: 2px solid red;
+    
         margin: 0;
         padding: 0;
     }
