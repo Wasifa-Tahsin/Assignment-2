@@ -311,6 +311,57 @@ height: 274px;
  main>section{
     margin: 0 auto;
  }
+/* total */
+.fat{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 80px;
+    background-color: #030303;
+}
+.fat-text{
+    font-size: 32px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    margin-top: 58px;
+}
+.box1{
+    height: 300px;
+    width: 450px;
+    border-radius: 10px;
+    background-color: #2d2a2a;
+    align-items: center;
+    text-align: center;
+    
+}
+.box2{
+    height: 300px;
+    width: 450px;
+    border-radius: 10px;
+    background-color: #2d2a2a;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#loss-icon{
+   height: 30px;
+   width: 30px;
+   font-size: 80px;
+   margin-top: 30px;
+}
+.loss-text{
+    margin-top: 30px;
+    color: white;
+    font-size: 25px;
+
+}
+.loss-desc{
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 20px;
+}
 
  /* run related style */
  .run{
@@ -337,7 +388,8 @@ border-radius: 18px;
 margin: 30px 32px;
  }
  .running{
-    display: flex;   
+    display: flex; 
+   
  }
  .run-image{
     /* margin-left: 150px; */
@@ -495,7 +547,8 @@ margin-top: 58px;
     width: 327px;
 height: 272px;
 margin-top: 20px;
-margin-left: 20px;
+/* margin-left: 20px; */
+
 }
 
 .first-head{
@@ -628,6 +681,9 @@ text-align: center;
     .banner, .running, .bmi-calculator{
         flex-direction: column;
     }
+    .running{
+        margin-top: -1050px;
+    }
     .banner-title{
         font-size: 40px;
        margin-right: 35%;
@@ -722,7 +778,7 @@ text-align: center;
         width: 300px;
     }
     .first-container{
-       margin-left: -32px;
+       /* margin-left: -20px; */
        width: 300px;
         /* width: 400px; */
     }
@@ -787,6 +843,21 @@ text-align: center;
     }
     .habit-section{
         width: 350px;
+    }
+    .main-container{
+        margin-top: 1100px;
+    }
+    .fat{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+   
+    .box1{
+        width: 350px;
+        margin-left: 20px;
+    }
+    .gym-img{
+        width: 100%;
     }
    
     
